@@ -1,0 +1,22 @@
+{
+  "name": "zimo-microbe-defense",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "ZIMO: Microbe Defense - 3D educational runner & gate shooter",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "node --check src/game/game.js && node --check src/game/crowd.js && node --check src/game/track.js && node --check src/game/enemies.js && node --check src/game/projectiles.js && node --check src/game/effects.js && node --check src/ui/ui.js && node --check src/data/levels.js && node --check src/data/trivia.js && node --check src/core/audio.js && node --check src/core/storage.js"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.0.4",
+    "three": "^0.180.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "vite": "^7.1.7"
+  },
+  "devDependencies": {}
+}
